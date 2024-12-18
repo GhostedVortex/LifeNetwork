@@ -1,0 +1,10 @@
+#LifeNetwork Scoreboard Configuration
+#Version 1.0
+enabled: true
+#Enabling Gamemodes:
+#Do NOT set these to true or false. Please use "&aOnline", "&bNot Released", or "&cUnder Maintenance"
+LifeSteal: "&4Not Released"
+Box: "&4Not Released"
+Gens: "&4Not Released"
+BedWars: "&4Not Released"
+ip: "&4ʙᴇᴛᴀ.ʟɪꜰᴇɴᴇᴛᴍᴄ.ᴄᴏᴍ"
