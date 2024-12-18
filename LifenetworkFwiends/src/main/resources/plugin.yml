@@ -1,0 +1,25 @@
+name: LifenetworkFwiends
+version: '${project.version}'
+main: me.ghostedvortex.lifenetworkfwiends.LifenetworkFwiends
+api-version: '1.20'
+load: STARTUP
+commands:
+  friend:
+    usage: /<command> <add|remove|block|unblock|accept|deny> <player>
+    description: A command to add friends in the Minecraft server!
+    permission: lifenetwork.friends.friend
+  lifenetwork:
+    usage: /<command> <reload|version>
+    description: A command to use the Lifenetwork main command
+    permission: lifenetwork.lifenetwork
+  settings:
+    usage: /<command> <FriendRequests> <On|Off>
+    description: A command to change friend settings
+    permission: lifenetwork.friends.settings
+permissions:
+  lifenetwork.friends.friend:
+    description: A permission that allows player to use /friend
+  lifenetwork.lifenetwork:
+    description: A permission that allows player to use /Lifenetwork reload
+  lifenetwork.friends.settings:
+    description: A permission that allows player to use /settings
